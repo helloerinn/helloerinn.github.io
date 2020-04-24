@@ -1,0 +1,117 @@
+.head{
+    padding: 0.5em 1em;
+    margin: 2em 5;
+    color: black;
+    background: white;
+    #border-top: solid 5px #5d627b;
+    border-top: solid 5px #ff9e9e;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    width: 600px;
+    position:relative;
+}
+.head p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box1{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: black;
+    background: white;
+    #border-top: solid 5px #ff9e9e;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    width: 600px;
+    position:relative;
+}
+
+.box1 p {
+    margin: 3; 
+    padding: 0;
+}
+
+.parent{
+  #border: 1px solid #aaa;
+  padding: 10px;
+  text-align: center;
+  
+}
+.inner{
+   display:inline-block;
+   padding:10px;
+   #border: 1px dashed #ccc;
+}
+.tablecell{
+  #border: 1px solid #aaa;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 200px;
+  #height: 40px;
+  #margin: 20px;
+}
+
+.itemname{
+    #padding: 0px 19px;
+    margin: 10px 50px 20px 0;
+    #color: #2c2c2f;
+    #background: #cde4ff;
+    border-left:solid 10px #ff9e9e;
+    border-bottom: solid 1px #ff9e9e;
+    #display: inline-block;
+    position:relative;
+}
+
+.pic{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #2c2c2f;
+    #color:#f7f7f7;
+    #background: #a9a9a9;/*背景色*/
+    #background: #ff7c5c;
+    background: #ff9e9e;
+    width: 300px;
+    position:relative;
+}
+.tablesorter-ice{width:100%;background-color:#fff;margin:10px 0 15px;text-align:left;border-spacing:0;border:#ccc 1px solid;border-width:1px 0 0 1px}
+.tablesorter-ice td,.tablesorter-ice th{border:#ccc 1px solid;border-width:0 1px 1px 0}
+.tablesorter-ice th,.tablesorter-ice thead td{font:12px/18px Arial,Sans-serif;color:#555;background-color:#ffefef/*背景色*/;border-collapse:collapse;padding:4px;text-shadow:0 1px 0 rgba(255,255,255,.7)}
+.tablesorter-ice tbody td,.tablesorter-ice tfoot td,.tablesorter-ice tfoot th{padding:4px;vertical-align:top}
+//.tablesorter-ice .header,.tablesorter-ice .tablesorter-header{background-color:#f6f8f9;background-position:center right;background-repeat:no-repeat;background-image:url();padding:4px 20px 4px 4px;white-space:normal;cursor:pointer}
+.tablesorter-ice thead .sorter-false{background-image:none;cursor:default;padding:4px}
+.tablesorter-ice tfoot.tablesorter-headerAsc,.tablesorter-ice tfoot .tablesorter-headerDesc,.tablesorter-ice tfoot .tablesorter-headerSortDown,.tablesorter-ice tfoot .tablesorter-headerSortUp{background-color:#ebedee}
+.tablesorter-ice tbody>tr.even:hover>td,.tablesorter-ice tbody>tr.hover>td,.tablesorter-ice tbody>tr.odd:hover>td,.tablesorter-ice tbody>tr:hover>td{background-color:#ffd6d6/*背景色*/}
+
+.tablesorter-hyo{width:100%;background-color:#fff;margin:10px 0 15px;text-align:left;border-spacing:0;border:#ccc 1px solid;border-width:1px 0 0 1px}
+.tablesorter-hyo td,.tablesorter-hyo th{border:#ccc 1px solid;border-width:0 1px 1px 0}
+.tablesorter-hyo th,.tablesorter-hyo thead td{font:12px/18px Arial,Sans-serif;color:#555;background-color:#ffefef/*背景色*/;border-collapse:collapse;padding:4px;text-shadow:0 1px 0 rgba(255,255,255,.7)}
+.tablesorter-hyo tbody td,.tablesorter-hyo tfoot td,.tablesorter-hyo tfoot th{padding:4px;vertical-align:top}
+.tablesorter-hyo thead .sorter-false{background-image:none;cursor:default;padding:4px}
+.tablesorter-hyo tfoot.tablesorter-headerAsc,.tablesorter-hyo tfoot .tablesorter-headerDesc,.tablesorter-hyo tfoot .tablesorter-headerSortDown,.tablesorter-hyo tfoot .tablesorter-headerSortUp{background-color:#ebedee}
+//.tablesorter-hyo tbody>tr.even:hover>td,.tablesorter-hyo tbody>tr.hover>td,.tablesorter-hyo tbody>tr.odd:hover>td,.tablesorter-hyo tbody>tr:hover>td{background-color:#ffd6d6/*背景色*/}
+
+.btn-sticky {
+    display: inline-block;
+    margin: 1em 1em;
+  padding: 0.5em 10em;
+  text-decoration: none;
+  background: #f7f7f7;
+  #border-left: solid 6px #ff7c5c;/*左線*/
+  color: #ff7c5c;/*文字色*/
+  font-weight: bold;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+.btn-sticky:active {
+  box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+  transform: translateY(2px);
+}
+
+.btn-sticky:hover {
+    background-color: #ff7c5c;
+     color: #f7f7f7;
+    }
+
+
+.gayo img {
+    width: 550px;  /* 横幅を200pxに */
+}
